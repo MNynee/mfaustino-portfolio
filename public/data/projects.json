@@ -5,7 +5,7 @@
         "title": "Kasa Locations",
         "year": "2026",
         "description": "Site de location d'appartements entre particuliers en France où on peut rechercher et voir ses details. Conversion d'un site en ASP.NET vers React.",
-        "technologies": ["React", "JavaScript", "CSS"],
+        "technologies": ["React", "JavaScript", "SASS"],
         "link": "https://kasa-locations.vercel.app/",
         "code": "https://github.com/MNynee/kasa-locations"
     },
