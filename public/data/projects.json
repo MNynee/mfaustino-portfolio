@@ -11,7 +11,7 @@
     },
     {
         "id": "3",
-        "image": "src/assets/projet-2.webp",
+        "image": "src/assets/projet-3.webp",
         "title": "Ohmyfood",
         "year": "2026",
         "description": "Site developpé en mobile-first que permet de trouver les restaurants dans une ville et composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",

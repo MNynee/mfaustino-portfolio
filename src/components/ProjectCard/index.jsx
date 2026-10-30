@@ -1,41 +1,41 @@
 import { useEffect, useState } from "react"
 
-const ProjectCard = ({ id }) => {
+const ProjectCard = ({ project }) => {
   
-    const [project, setProject] = useState({})
+    const [work, setWork] = useState({})
 
     useEffect(() => {
-        async function fetchProject() {
+        async function fetchWork() {
             const response = await fetch('/data/projects.json')
             const data = await response.json()
-            const foundProject = data.find((project) => project.id === id)
-            setProject(foundProject)
+            const chosenWork = data.find((work) => work.id === project.id)
+            setWork(chosenWork)
         }
-        fetchProject()
-    }, [id])
+        fetchWork()
+    }, [project.id])
   
-    if (!project) return null
+    if (!project) return <div>Loading...</div>
 
   return (
     <div>
         <div>
-            <img src={project.image} alt={`${project.title}'s site`} />
+            <img src={work.image} alt={`${work.title}'s site`} />
         </div>
         <div>
-            <h2>{project.title}</h2>
-            <span>{project.year}</span>
+            <h2>{work.title}</h2>
+            <span>{work.year}</span>
         </div>
-        <p>{project.description}</p>
+        <p>{work.description}</p>
         <div>
-            {project.technologies.map((tech, index) =>
-                <span key={index}>{tech}</span>
+            {work.technologies.map((tech, index) =>
+                <span key={`tech-${index}`}>{tech}</span>
             )}
         </div>
         <div>
-            <a href={project.link} className="" target="_blank" rel="noopener noreferrer">
+            <a href={work.link} className="" target="_blank" rel="noopener noreferrer">
                 Voir le site <span>↗</span>
             </a>
-            <a href={project.code} className="" target="_blank" rel="noopener noreferrer">
+            <a href={work.code} className="" target="_blank" rel="noopener noreferrer">
                 Code source <span>↗</span>
             </a>
         </div>
