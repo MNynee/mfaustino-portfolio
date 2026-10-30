@@ -25,7 +25,7 @@ const ProjectsGrid = () => {
                 </a>
             </div>
         </div>
-        <div>
+        <div className="flex flex-col gap-8.5 xl:grid xl:grid-cols-2 xl:gap-x-8 xl:gap-y-13">
             {projects.map((work) => {
                 return <ProjectCard key={work.id} project={work} />
             })}
