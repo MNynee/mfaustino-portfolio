@@ -17,11 +17,11 @@ const ProjectsGrid = () => {
   return (
     <section className="mx-3 my-11 xl:mx-18 xl:my-23 flex flex-col gap-10 xl:gap-12">
         <div>
-            <span className="pb-2.5">01 / PROJETS</span>
+            <span className="pb-2.5 text-[9px] xl:text-[14px] leading-[150%] font-semibold xl:font-medium text-highlight">01 / PROJETS</span>
             <div className="flex flex-col xl:flex-row xl:justify-between gap-y-4">
-                <h2>Projets selectionés</h2>
-                <a href="https://github.com/MNynee" target="_blank" rel="noopener noreferrer">
-                    Tout voir sur GitHub <span>↗</span>
+                <h2 className="text-[24px] xl:text-[64px] xl:font-light font-fraunces">Projets selectionnés</h2>
+                <a href="https://github.com/MNynee" target="_blank" rel="noopener noreferrer" className="text-[11px] xl:text-[16px] font-semibold text-highlight xl:self-center">
+                    Tout voir sur GitHub <span className="font-inter">↗</span>
                 </a>
             </div>
         </div>
