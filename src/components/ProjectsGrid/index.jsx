@@ -15,15 +15,15 @@ const ProjectsGrid = () => {
     }, [])
     
   return (
-    <section>
+    <section className="mx-3 my-11 xl:mx-18 xl:my-23 flex flex-col gap-10 xl:gap-12">
         <div>
-            <span>01 / PROJETS</span>
-        </div>
-        <div>
-            <h2>Projets selectionés</h2>
-            <a href="https://github.com/MNynee" target="_blank" rel="noopener noreferrer">
-                Tout voir sur GitHub <span>↗</span>
-            </a>
+            <span className="pb-2.5">01 / PROJETS</span>
+            <div className="flex flex-col xl:flex-row xl:justify-between gap-y-4">
+                <h2>Projets selectionés</h2>
+                <a href="https://github.com/MNynee" target="_blank" rel="noopener noreferrer">
+                    Tout voir sur GitHub <span>↗</span>
+                </a>
+            </div>
         </div>
         <div>
             {projects.map((work) => {

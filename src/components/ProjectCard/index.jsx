@@ -3,12 +3,15 @@ import { useEffect, useState } from "react"
 const ProjectCard = ({ project }) => {
   
     const [work, setWork] = useState({})
+    const [techs, setTechs] = useState([])
 
     useEffect(() => {
         async function fetchWork() {
             const response = await fetch('/data/projects.json')
             const data = await response.json()
             const chosenWork = data.find((work) => work.id === project.id)
+            const techList = data.find((work) => work.id === project.id).technologies
+            setTechs(techList)
             setWork(chosenWork)
         }
         fetchWork()
@@ -27,7 +30,7 @@ const ProjectCard = ({ project }) => {
         </div>
         <p>{work.description}</p>
         <div>
-            {work.technologies.map((tech, index) =>
+            {techs.map((tech, index) =>
                 <span key={`tech-${index}`}>{tech}</span>
             )}
         </div>
