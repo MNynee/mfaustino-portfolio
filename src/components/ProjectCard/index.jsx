@@ -27,7 +27,7 @@ const ProjectCard = ({ project }) => {
             <img src={work.image} alt={`${work.title}'s site`} className={`hover:animate-scroll-${work.hover} transition-transform duration-1000 ease-in-out`} />
         </div>
         <div className="flex justify-between items-center">
-            <h2 className="text-[21px] xl:text-[30px] font-fraunces xl:pb-1.5">{work.title}</h2>
+            <h3 className="text-[21px] xl:text-[30px] font-fraunces xl:pb-1.5">{work.title}</h3>
             <span className="text-[9px] xl:text-[14px] leading-[150%] text-secondary-text">{work.year}</span>
         </div>
         <p className="text-[12px] xl:text-[17px] text-secondary-text">{work.description}</p>
