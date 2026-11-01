@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import ProjectsGrid from "./components/ProjectsGrid"
+import AboutMe from "./components/AboutMe"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <ProjectsGrid />
+      <AboutMe />
       <Footer />
     </div>
   )
