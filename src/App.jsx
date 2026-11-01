@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
+import ProjectsGrid from "./components/ProjectsGrid"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div className="bg-main-bg font-hanken-grotesk text-main-text">
       <Header />
       <Hero />
+      <ProjectsGrid />
       <Footer />
     </div>
   )
