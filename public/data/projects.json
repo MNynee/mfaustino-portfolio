@@ -2,9 +2,10 @@
     {
         "id": "1",
         "image": "src/assets/projet-1.webp",
+        "hover": "320",
         "title": "Kasa Locations",
         "year": "2026",
-        "description": "Site de location d'appartements entre particuliers en France où on peut rechercher et voir ses details. Conversion d'un site en ASP.NET vers React.",
+        "description": "Site fictif de location d'appartements entre particuliers en France où on peut rechercher et voir ses details. Conversion d'un site en ASP.NET vers React.",
         "technologies": ["React", "JavaScript", "SASS"],
         "link": "https://kasa-locations.vercel.app/",
         "code": "https://github.com/MNynee/kasa-locations"
@@ -12,9 +13,10 @@
     {
         "id": "3",
         "image": "src/assets/projet-3.webp",
+        "hover": "217",
         "title": "Ohmyfood",
         "year": "2026",
-        "description": "Site developpé en mobile-first que permet de trouver les restaurants dans une ville et composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
+        "description": "Site fictif developpé en mobile-first que permet de trouver les restaurants dans une ville et composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "link": "https://ohmyfood-eta.vercel.app/",
         "code": "https://github.com/MNynee/ohmyfood"
@@ -22,6 +24,7 @@
     {
         "id": "4",
         "image": "src/assets/projet-4.webp",
+        "hover": "277",
         "title": "Fokus",
         "year": "2025",
         "description": "Application web qui permet aux utilisateurs d'optimiser leur productivité avec la méthode Pomodoro. C'est possible de créer de tâches, mettre à jour leur état et aussi faire des pauses chronométrées.",
@@ -32,6 +35,7 @@
     {
         "id": "5",
         "image": "src/assets/projet-5.webp",
+        "hover": "1741",
         "title": "Jornada Viagens",
         "year": "2025",
         "description": "Site web pour une agence de voyage fictive qui permet aux utilisateurs de rechercher et réserver des voyages. Le site est conçu pour être responsive et accessible sur tous les appareils.",

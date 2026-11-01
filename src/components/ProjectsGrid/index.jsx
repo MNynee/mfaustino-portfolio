@@ -15,7 +15,7 @@ const ProjectsGrid = () => {
     }, [])
     
   return (
-    <section className="mx-3 my-11 xl:mx-18 xl:my-23 flex flex-col gap-10 xl:gap-12">
+    <section id="projects" className="mx-3 my-11 xl:mx-18 xl:my-23 flex flex-col gap-10 xl:gap-12">
         <div>
             <span className="pb-2.5 text-[9px] xl:text-[14px] leading-[150%] font-semibold xl:font-medium text-highlight">01 / PROJETS</span>
             <div className="flex flex-col xl:flex-row xl:justify-between gap-y-4">

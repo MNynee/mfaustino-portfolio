@@ -1,19 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --color-main-bg: #0D0D0F;
-  --color-main-title: #FFFFFF;
-  --color-main-text: #E4E2E1;
+  --color-main-bg: #0d0d0f;
+  --color-main-title: #ffffff;
+  --color-main-text: #e4e2e1;
   --color-secondary-text: #969497;
-  --color-button-text: #15100E;
+  --color-button-text: #15100e;
   --color-button-border: #262628;
-  --color-highlight: #FF7746;
+  --color-highlight: #ff7746;
   --color-divider: #202023;
 
-  --font-fraunces: 'Fraunces', serif;
-  --font-hanken-grotesk: 'Hanken Grotesk', sans-serif;
-  --font-inter: 'Inter', sans-serif;
+  --font-fraunces: "Fraunces", serif;
+  --font-hanken-grotesk: "Hanken Grotesk", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  --animate-scroll-320: scroll320 5s ease-in-out infinite;
+
+  @keyframes scroll320 {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-320px);
+    }
+  }
+
+  --animate-scroll-217: scroll217 4s ease-in-out infinite;
+
+  @keyframes scroll217 {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-217px);
+    }
+  }
+
+  --animate-scroll-277: scroll277 4s ease-in-out infinite;
+
+  @keyframes scroll277 {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-277px);
+    }
+  }
+
+  --animate-scroll-1741: scroll1741 10s ease-in-out infinite;
+
+  @keyframes scroll1741 {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-1831px);
+    }
+  }
+
 }
 
 html {
