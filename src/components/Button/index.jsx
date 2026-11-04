@@ -7,7 +7,7 @@ const Button = ({variant, content, link}) => {
 
   return (
     <div>
-      <a href={link} className={`inline-block px-5 xl:px-6 py-2.5 xl:py-3.5 border border-solid ${styles[variant]} rounded-full text-[11px] xl:text-[16px] hover:scale-105 transition-all duration-300 `}>
+      <a href={link} className={`inline-block px-5 xl:px-6 py-2.5 xl:py-3.5 border border-solid ${styles[variant]} rounded-full text-[11px] xl:text-[16px] hover:scale-105 transition-all duration-300`}>
         {content}
       </a>
     </div>
