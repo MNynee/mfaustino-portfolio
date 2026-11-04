@@ -11,16 +11,20 @@ const Contact = () => {
                 <li><a href="#">LinkedIn</a></li>
                 <li><a href="#">CV</a></li>
             </ul>
+            <p>+33 06 61 55 69 21</p>
         </div>
         <form action="">
-            <label>
+            <label for="name">
+                Nom
                 <input type="text" name="name" id="name" placeholder="Votre nom" />
             </label>
-            <label>
-                <input type="text" name="email" id="email" placeholder="Votre email" />
+            <label for="email">
+                E-mail
+                <input type="text" name="email" id="email" placeholder="votre@email.fr" />
             </label>
             <label>
-                <textarea name="message" id="message" placeholder="Votre message"></textarea>
+                Message
+                <textarea name="message" id="message" placeholder="Parlez-moi de votre projet"></textarea>
             </label>
             <button type="submit">Envoyer le message</button>
         </form>
@@ -28,4 +32,4 @@ const Contact = () => {
   )
 }
 
-export default Contact>
+export default Contact
