@@ -3,6 +3,7 @@ import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import ProjectsGrid from "./components/ProjectsGrid"
 import AboutMe from "./components/AboutMe"
+import Contact from "./components/Contact"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <ProjectsGrid />
       <AboutMe />
+      <Contact />
       <Footer />
     </div>
   )
