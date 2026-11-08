@@ -18,11 +18,13 @@ const ProjectCard = ({ project }) => {
             )}
         </div>
         <div className="flex gap-4">
-            <a href={project.link} className="text-highlight text-[11px] xl:text-[16px] font-semibold" target="_blank" rel="noopener noreferrer">
+            <a href={project.link} className="text-highlight text-[11px] xl:text-[16px] font-semibold group" target="_blank" rel="noopener noreferrer">
                 Voir le site <span>↗</span>
+                <div class="bg-highlight h-[1.5px] w-0 group-hover:w-full transition-all duration-300"></div>
             </a>
-            <a href={project.code} className="text-[11px] xl:text-[16px] font-semibold" target="_blank" rel="noopener noreferrer">
+            <a href={project.code} className="text-[11px] xl:text-[16px] font-semibold group" target="_blank" rel="noopener noreferrer">
                 Code source <span>↗</span>
+                <div class="bg-main-text h-[1.5px] w-0 group-hover:w-full transition-all duration-300"></div>
             </a>
         </div>
     </div>

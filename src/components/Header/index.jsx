@@ -6,13 +6,22 @@ const Header = () => {
         <nav>
           <ul className="flex gap-x-5 xl:gap-x-6 text-[12px] xl:text-[15px]">
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects" className="group">
+                Projects
+                <div class="bg-main-text h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
+              </a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about" className="group">
+                About
+                <div class="bg-main-text h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" className="group">
+                Contact
+                <div class="bg-main-text h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
+              </a>
             </li>
           </ul>
         </nav>

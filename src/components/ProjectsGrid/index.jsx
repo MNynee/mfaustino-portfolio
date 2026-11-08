@@ -20,8 +20,9 @@ const ProjectsGrid = () => {
             <span className="pb-2.5 text-[9px] xl:text-[14px] leading-[150%] font-semibold xl:font-medium text-highlight">01 / PROJETS</span>
             <div className="flex flex-col xl:flex-row xl:justify-between gap-y-4">
                 <h2 className="text-[24px] xl:text-[64px] xl:font-light font-fraunces">Projets selectionnés</h2>
-                <a href="https://github.com/MNynee" target="_blank" rel="noopener noreferrer" className="text-[11px] xl:text-[16px] font-semibold text-highlight xl:self-center">
+                <a href="https://github.com/MNynee" target="_blank" rel="noopener noreferrer" className="text-[11px] xl:text-[16px] font-semibold text-highlight xl:self-center group">
                     Tout voir sur GitHub <span className="font-inter">↗</span>
+                    <div class="bg-highlight h-[1.5px] w-0 group-hover:w-full transition-all duration-300"></div>
                 </a>
             </div>
         </div>
