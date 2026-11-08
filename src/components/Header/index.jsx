@@ -8,19 +8,19 @@ const Header = () => {
             <li>
               <a href="#projects" className="group">
                 Projects
-                <div class="bg-main-text h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
+                <div className="bg-main-text h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
               </a>
             </li>
             <li>
               <a href="#about" className="group">
                 About
-                <div class="bg-main-text h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
+                <div className="bg-main-text h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
               </a>
             </li>
             <li>
               <a href="#contact" className="group">
                 Contact
-                <div class="bg-main-text h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
+                <div className="bg-main-text h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
               </a>
             </li>
           </ul>

@@ -9,7 +9,7 @@ const Contact = () => {
             <ul className="flex gap-5 xl:gap-6">
                 <li><a href="https://github.com/MNynee" className="font-medium text-[11px] xl:text-[17px]">GitHub</a></li>
                 <li><a href="https://www.linkedin.com/in/matheus-faustino-7b4972161/" className="font-medium text-[11px] xl:text-[17px]">LinkedIn</a></li>
-                <li><a href="#" className="font-medium text-[11px] xl:text-[17px]">CV</a></li>
+                <li><a href="#" className="font-medium text-[11px] xl:text-[17px] invisible">CV</a></li>
             </ul>
             <p className="font-medium text-[11px] xl:text-[17px]">+33 06 61 55 69 21</p>
         </div>
