@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div className="flex flex-col gap-4 xl:w-full xl:max-w-[368px]">
             <span className="text-[9px] xl:text-[14px] leading-[150%] font-semibold xl:font-medium text-highlight">02 / À PROPOS</span>
             <div className="max-h-[394px] xl:h-full xl:max-h-[553px] rounded-xl overflow-hidden">
-                <img src="src/assets/profile-photo.webp" alt="Photo de profil" className="w-full object-cover object-center"/>
+                <img src="src/assets/profile-photo.webp" alt="Portrait de Matheus Faustino, développeur front-end" className="w-full object-cover object-center"/>
             </div>
         </div>
         <div className="flex flex-col gap-4.5 xl:w-[55%]">
@@ -30,7 +30,7 @@ const AboutMe = () => {
                     <p className="text-[12px] xl:text-[18px] font-medium">Communication, Travail en équipe, Rigueur, Résolution de problèmes, Curiosité</p>
                 </li>
             </ul>
-            <Button variant="secondary" content="Aller au GitHub" link="https://github.com/MNynee" />
+            <Button variant="secondary" content="Aller sur GitHub" link="https://github.com/MNynee" />
         </div>
     </section>
   )
