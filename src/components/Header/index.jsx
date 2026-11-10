@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="flex flex-col gap-2 px-4 py-3 xl:flex-row xl:justify-between xl:items-center xl:px-18 xl:py-8" id="header">
+    <header className="flex flex-col gap-2 px-4 py-3 md:flex-row md:justify-between md:items-center lg:px-18 lg:py-8" id="header">
       <div className="text-[17px] xl:text-[26px] font-fraunces">MATHEUS FAUSTINO</div>
       <div>
         <nav>

@@ -23,8 +23,8 @@ const Contact = () => {
     }
 
   return (
-    <section id="contact" className="mx-3 py-11 xl:mx-18 xl:py-23 flex flex-col xl:grid xl:grid-cols-2 gap-12 border-b-1 border-divider">
-        <div className="flex flex-col gap-4.5 xl:gap-5">
+    <section id="contact" className="mx-3 py-11 lg:mx-18 lg:py-23 flex flex-col md:grid md:grid-cols-2 gap-12 border-b-1 border-divider">
+        <div className="flex flex-col gap-4.5 lg:gap-5">
             <span className="text-[9px] xl:text-[14px] leading-[150%] font-semibold xl:font-medium text-highlight">03 / CONTACT</span>
             <h2 className="font-fraunces font-light text-[26px] xl:text-[88px] leading-[110%]">Parlons-en.</h2>
             <a href="mailto:matheus.dev3trad@gmail.com" className="font-medium text-[14px] xl:text-[30px] text-highlight">matheus.dev3trad@gmail.com</a>

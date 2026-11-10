@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="flex justify-between px-3 py-6 xl:px-18 xl:py-8 text-[8px] xl:text-[14px] text-secondary-text">
+    <footer className="flex justify-between px-3 py-6 lg:px-18 lg:py-8 text-[8px] xl:text-[14px] text-secondary-text">
         <div>
             <p>&copy; {new Date().getFullYear()} Matheus Faustino. All rights reserved.</p>
         </div>
