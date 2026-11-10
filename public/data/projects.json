@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "../../src/assets/projet-1.webp",
+        "image": "https://github.com/MNynee/mfaustino-portfolio/blob/main/src/assets/projet-1.webp",
         "hover": "320",
         "title": "Kasa Locations",
         "year": "2026",
@@ -12,7 +12,7 @@
     },
     {
         "id": "3",
-        "image": "../../src/assets/projet-3.webp",
+        "image": "../src/assets/projet-3.webp",
         "hover": "217",
         "title": "Ohmyfood",
         "year": "2026",
