@@ -1,5 +1,5 @@
 import Button from "../Button";
-import ProfileDetail from "../profileDetails";
+import ProfileDetail from "../ProfileDetails";
 
 const Hero = () => {
   return (
