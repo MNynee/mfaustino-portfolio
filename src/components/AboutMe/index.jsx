@@ -11,7 +11,7 @@ const AboutMe = () => {
         return () => window.removeEventListener('resize', handleResize)
     }, [])
 
-    const profilePhoto = windowWidth >= 1280 ? "../../src/assets/profile-photo.webp" : "../../src/assets/profile-photo-mobile.webp"
+    const profilePhoto = windowWidth >= 1280 ? "public/images/profile-photo.webp" : "public/images/profile-photo-mobile.webp"
 
   return (
     <section id="about" className="mx-3 py-11 lg:mx-18 lg:py-23 flex flex-col md:flex-row md:justify-between gap-9 border-b-1 border-divider">
