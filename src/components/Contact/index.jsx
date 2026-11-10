@@ -50,7 +50,7 @@ const Contact = () => {
             </label>
             <button type="submit" className="inline-block max-w-[145px] xl:max-w-[198px] xl:mt-2.5 px-5 xl:px-6 py-2.5 xl:py-3.5 border border-solid bg-highlight hover:bg-button-text border-transparent text-button-text hover:text-highlight font-bold rounded-full text-[11px] xl:text-[16px] hover:scale-105 transition-all duration-300 cursor-pointer">Envoyer le message</button>
             {statusMessage && (
-                <p className={isError ? 'text-red-500' : 'text-green-500'}>
+                <p className={isError ? 'text-red-500' : 'text-green-500'} aria-live="polite" aria-atomic="true" role="status">
                     {statusMessage}
                 </p>
             )}
