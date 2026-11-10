@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "src/assets/projet-1.webp",
+        "image": "../../src/assets/projet-1.webp",
         "hover": "320",
         "title": "Kasa Locations",
         "year": "2026",
@@ -12,7 +12,7 @@
     },
     {
         "id": "3",
-        "image": "src/assets/projet-3.webp",
+        "image": "../../src/assets/projet-3.webp",
         "hover": "217",
         "title": "Ohmyfood",
         "year": "2026",
@@ -23,7 +23,7 @@
     },
     {
         "id": "4",
-        "image": "src/assets/projet-4.webp",
+        "image": "../../src/assets/projet-4.webp",
         "hover": "277",
         "title": "Fokus",
         "year": "2025",
@@ -34,7 +34,7 @@
     },
     {
         "id": "5",
-        "image": "src/assets/projet-5.webp",
+        "image": "../../src/assets/projet-5.webp",
         "hover": "1741",
         "title": "Jornada Viagens",
         "year": "2025",

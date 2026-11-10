@@ -38,11 +38,11 @@ const Contact = () => {
         <form ref={form} onSubmit={handleSubmit} className="flex flex-col gap-3.5" id="contactForm">
             <label htmlFor="name" className="text-secondary-text text-[9px] xl:text-[14px] flex flex-col gap-1">
                 Nom
-                <input type="text" name="name" id="name" placeholder="Votre nom" required className="w-full bg-htmlForm border border-button-border p-3 xl:p-3.5 text-[11px] text-[16px] leading-[150%] rounded-lg xl:rounded-xl placeholder:text-[16px]" />
+                <input type="text" name="name" id="name" placeholder="Votre nom" required className="w-full bg-form border border-button-border p-3 xl:p-3.5 text-[11px] text-[16px] leading-[150%] rounded-lg xl:rounded-xl placeholder:text-[16px]" />
             </label>
             <label htmlFor="email" className="text-secondary-text text-[9px] xl:text-[14px] flex flex-col gap-1">
                 E-mail
-                <input type="email" name="email" id="email" placeholder="votre@email.fr" required className="w-full bg-htmlForm border border-button-border p-3 xl:p-3.5 text-[11px] text-[16px] leading-[150%] rounded-lg xl:rounded-xl placeholder:text-[16px]" />
+                <input type="email" name="email" id="email" placeholder="votre@email.fr" required className="w-full bg-form border border-button-border p-3 xl:p-3.5 text-[11px] text-[16px] leading-[150%] rounded-lg xl:rounded-xl placeholder:text-[16px]" />
             </label>
             <label htmlFor="message" className="text-secondary-text text-[9px] xl:text-[14px] flex flex-col gap-1">
                 Message
