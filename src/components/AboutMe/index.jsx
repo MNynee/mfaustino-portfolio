@@ -5,8 +5,8 @@ const AboutMe = () => {
     <section id="about" className="mx-3 py-11 xl:mx-18 xl:py-23 flex flex-col xl:flex-row xl:justify-between gap-9 border-b-1 border-divider">
         <div className="flex flex-col gap-4 xl:w-full xl:max-w-[368px]">
             <span className="text-[9px] xl:text-[14px] leading-[150%] font-semibold xl:font-medium text-highlight">02 / À PROPOS</span>
-            <div className="max-h-[394px] xl:h-full xl:max-h-[596px] rounded-xl overflow-hidden">
-                <img src="src/assets/profile-photo.webp" alt="Photo de profil" className="w-full object-cover object-center"/>
+            <div className="max-h-[394px] xl:h-full xl:max-h-[553px] rounded-xl overflow-hidden">
+                <img src="src/assets/profile-photo.webp" alt="Portrait de Matheus Faustino, développeur front-end" className="w-full object-cover object-center"/>
             </div>
         </div>
         <div className="flex flex-col gap-4.5 xl:w-[55%]">
@@ -30,7 +30,7 @@ const AboutMe = () => {
                     <p className="text-[12px] xl:text-[18px] font-medium">Communication, Travail en équipe, Rigueur, Résolution de problèmes, Curiosité</p>
                 </li>
             </ul>
-            <Button variant="secondary" content="Télécharger mon CV" link="#" />
+            <Button variant="secondary" content="Aller sur GitHub" link="https://github.com/MNynee" />
         </div>
     </section>
   )
