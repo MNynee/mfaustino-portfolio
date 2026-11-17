@@ -1,16 +1,38 @@
-# React + Vite
+# Portfolio - Front-End Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio for a front-end web developer, designed to present projects, skills, and contact information in a modern and responsive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Hero section with clear calls to action
+- About section highlighting skills and experience
+- Project grid with descriptions, technologies, and links
+- Functional contact form powered by EmailJS
+- Responsive design for mobile, tablet, and desktop
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- EmailJS
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone <repository-url>
+cd portfolio
+npm install
+npm run dev
+```
+
+## Contact
+
+- Email: matheus.dev3trad@gmail.com
+- GitHub: https://github.com/MNynee
+- LinkedIn: https://www.linkedin.com/in/matheus-faustino-7b4972161/
+
+## License
+
+This project is intended for personal and professional showcase use. Please check usage rights before reuse or publication.
