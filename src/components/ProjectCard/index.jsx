@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react";
+
 const ProjectCard = ({ project }) => {
   const animationMap = {
     320: "hover:animate-scroll-320",
@@ -6,13 +8,23 @@ const ProjectCard = ({ project }) => {
     1741: "hover:animate-scroll-1741",
   };
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  
+      useEffect(() => {
+          const handleResize = () => setWindowWidth(window.innerWidth)
+          window.addEventListener('resize', handleResize)
+          return () => window.removeEventListener('resize', handleResize)
+      }, [])
+  
+      const projectPhoto = windowWidth >= 1024 ? project.image : project.mobileImage
+
   if (!project) return <div>Loading...</div>;
 
   return (
     <div className="flex flex-col gap-4.5">
       <div className="border border-0.7 border-button-border rounded-xl overflow-hidden max-h-[170px] h-[100%] xl:max-h-[374px]">
         <img
-          src={project.image}
+          src={projectPhoto}
           alt={`${project.title}'s site`}
           className={`${animationMap[project.hover]} transition-transform duration-1000 ease-in-out`}
         />
