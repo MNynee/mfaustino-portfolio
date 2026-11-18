@@ -14,7 +14,7 @@ const Hero = () => {
           Développeur specialisé au front-end, je conçois des sites clairs,
           accessibles et agréables à utiliser.
         </p>
-        <div className="flex flex-col gap-3 lg:flex-row xl:gap-12">
+        <div className="flex flex-col gap-3 md:flex-row xl:gap-12">
           <Button
             variant="primary"
             content="Découvrir mes projets"

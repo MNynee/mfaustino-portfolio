@@ -28,6 +28,18 @@
     }
   }
 
+  --animate-scroll-23: scroll23 3s ease-in-out infinite;
+
+  @keyframes scroll23 {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-43px);
+    }
+  }
+
   --animate-scroll-217: scroll217 4s ease-in-out infinite;
 
   @keyframes scroll217 {
@@ -52,9 +64,9 @@
     }
   }
 
-  --animate-scroll-1741: scroll1741 10s ease-in-out infinite;
+  --animate-scroll-1831: scroll1831 10s ease-in-out infinite;
 
-  @keyframes scroll1741 {
+  @keyframes scroll1831 {
     0%,
     100% {
       transform: translateY(0);

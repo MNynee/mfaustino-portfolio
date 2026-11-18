@@ -12,6 +12,18 @@
         "code": "https://github.com/MNynee/kasa-locations"
     },
     {
+        "id": "2",
+        "image": "/images/projet-2.webp",
+        "mobileImage": "/images/projet-2-mobile.webp",
+        "hover": "23",
+        "title": "Jeu du Numéro Secret",
+        "year": "2025",
+        "description": "Jeu développé en JavaScript pour trouver un numéro secret entre 1 et 100. L'utilisateur peut saisir des nombres et recevoir des indices à chaque tentative.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "link": "https://numero-secreto-psi-teal.vercel.app/",
+        "code": "https://github.com/MNynee/numero-secreto"
+    },
+    {
         "id": "3",
         "image": "/images/projet-3.webp",
         "mobileImage": "/images/projet-3-mobile.webp",

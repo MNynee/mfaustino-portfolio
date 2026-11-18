@@ -9,7 +9,8 @@ const ProjectsGrid = () => {
         async function fetchProjects() {
             const response = await fetch('/data/projects.json')
             const data = await response.json()
-            setProjects(data)
+            const slicedData = data.slice(0, 4)
+            setProjects(slicedData)
         }
         fetchProjects()
     }, [])

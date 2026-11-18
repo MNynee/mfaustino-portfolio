@@ -3,9 +3,10 @@ import { useState, useEffect } from "react";
 const ProjectCard = ({ project }) => {
   const animationMap = {
     320: "hover:animate-scroll-320",
+    23: "hover:animate-scroll-23",
     217: "hover:animate-scroll-217",
     277: "hover:animate-scroll-277",
-    1741: "hover:animate-scroll-1741",
+    1831: "hover:animate-scroll-1831",
   };
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
