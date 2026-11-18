@@ -18,7 +18,7 @@
         "hover": "23",
         "title": "Jeu du Numéro Secret",
         "year": "2025",
-        "description": "Jeu développé en JavaScript pour trouver un numéro secret entre 1 et 100. L'utilisateur peut saisir des nombres et recevoir des indices à chaque tentative.À la fin, l'utilisateur reçoit un message de succès qui dit aussi combien de tentatives il a fait pour trouver le numéro secret. Les compétences developpées ont été le développement avec JavaScript, la manipulation du DOM et la gestion des événements.",
+        "description": "Jeu développé en JavaScript pour trouver un numéro secret entre 1 et 100. L'utilisateur peut saisir des nombres et recevoir des indices à chaque tentative. À la fin, l'utilisateur reçoit un message de succès qui dit aussi combien de tentatives il a fait pour trouver le numéro secret. Les compétences developpées ont été le développement avec JavaScript, la manipulation du DOM et la gestion des événements.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "link": "https://numero-secreto-psi-teal.vercel.app/",
         "code": "https://github.com/MNynee/numero-secreto"
