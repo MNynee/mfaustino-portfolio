@@ -10,10 +10,12 @@ function App() {
   return (
     <div className="bg-main-bg font-hanken-grotesk text-main-text">
       <Header />
-      <Hero />
-      <ProjectsGrid />
-      <AboutMe />
-      <Contact />
+      <main>
+        <Hero />
+        <ProjectsGrid />
+        <AboutMe />
+        <Contact />
+      </main>
       <Footer />
     </div>
   )
